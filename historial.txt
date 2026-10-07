@@ -1,0 +1,5 @@
+
+echo hola;0;28
+dir archivo.txt;1;31
+hola;1;27
+ping -n 11 127.0.0.1;-1;5024
