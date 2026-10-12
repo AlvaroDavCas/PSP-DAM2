@@ -27,8 +27,7 @@
         <service
             android:name=".servicio.DescargaService"
             android:exported="false"
-            android:foregroundServiceType="dataSync"
-            android:process=":descarga" />
+            android:foregroundServiceType="dataSync" />
 
     </application>
 

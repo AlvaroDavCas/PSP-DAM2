@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d(DescargaService.TAG, "MainActivity · PID=" + Process.myPid()
                 + " · hilo=" + Thread.currentThread().getName());
 
-        // Android 13+ (API 33): el permiso de notificaciones se pide en tiempo de ejecución
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
                 && ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
                 != PackageManager.PERMISSION_GRANTED) {
